@@ -1,0 +1,110 @@
+/*
+The CSS code gets to executed from top to bottom and left ro right
+*/
+
+
+/* CSS reset
+(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+
+/* General styles
+(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: grey;
+}
+
+
+/* Header styles
+(all the styles inside the < header > or < nav > tags)
+*/
+
+
+/* Content styles
+(all the styles inside the < sections > or < aside > tags)
+*/
+
+h1 {
+    margin-left: 24.3em;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.tube {
+    background-color: red;
+    border-radius: .3em;
+    padding: .2em;
+    color: white;
+}
+
+#wrapper {
+    width: 90%;
+}
+
+#search-form {
+    margin-left: 36em;
+    margin-top: 1em;
+}
+
+#query {
+    border: 1px solid black;
+    padding: .5em;
+}
+
+.myButton {
+    border: 1px solid red;
+    border-radius: .5em;
+    background-color: tan;
+    margin-top: .5em;
+    margin-left: 4em;
+    padding: .5em;
+}
+
+.results {
+    border: 1px solid black;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin-top: 3em;
+    padding-top: 1em;
+    margin-left: 4.5em;
+    text-align: center;
+    height: 230px;
+    font-size: 14px;
+}
+
+.results img {
+    max-width: 179px;
+    margin-top: 1em;
+}
+
+
+/* Footer styles
+(all the styles inside the < footer > tag)
+*/
+
+
+/* Responsive styles
+(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
