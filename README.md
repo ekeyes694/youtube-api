@@ -3,6 +3,9 @@
 ##Synopsis
 An API application introducing how to use and implement them. Uses YouTubes API to search their database and display top 5 videos
 from the users search term.
+
+**Used for educational purposes through Thinkful Bootcamp**
+
 ## Code Example
 
     $(document).ready(function () {
